@@ -11,6 +11,8 @@ Volume Group: It is a pool which is comprosed of physical volumes.
 Logical Volume: When the VG created, we can finally creates a logical volume, you can create one or more logical volumers from a single volume group. 
 
 Here is a diagram for this relationship:
+
+
 ![lvmsetup](https://github.com/user-attachments/assets/8f99d2d1-141e-46f0-b4b1-33b06719b1a1)
 
 
