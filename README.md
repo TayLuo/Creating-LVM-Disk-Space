@@ -3,13 +3,16 @@ The goal of this lab is to teach you how to create and manage LVM (Logical Volum
 
 To understand the use LVM we need to comprehend three main components, they are interconnected and together make what we call a Logical Volume, here are the three components:
 
-	Physical Volume:
- It is simply the physical storage devices, whether it is SSD or HDD drives. 
+Physical Volume: It is simply the physical storage devices, whether it is SSD or HDD drives. 
  
 
- 	Volume Group
+Volume Group: It is a pool which is comprosed of physical volumes.
 
-  	Logical Volume
+Logical Volume: When the VG created, we can finally creates a logical volume, you can create one or more logical volumers from a single volume group. 
+
+Here is a diagram for this relationship:
+
+
 
 
 
