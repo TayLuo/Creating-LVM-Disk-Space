@@ -18,6 +18,8 @@ Here is a diagram for this relationship:
 
 
 
+For this demonstration purpose, I will use Google Cloud Platform. The concept will apply in any platforms and distributions.
+
 
 
 1. Install required Packages
