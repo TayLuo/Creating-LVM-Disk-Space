@@ -32,18 +32,15 @@ Here are the following steps:
 		lsblk
 
 
-1. Install required Packages
+2. Install LVM Tools
    
-   Ensure that the system has essential packages like gcc, glibc, make, wget, and openssl installed, there are more packages need to be installed.    :
+   Before setting up LVM, you need to install the necessary tools. Run the following command to install LVM utilities:
    
-   		dnf install httpd php gcc glibc glibc-common gd gd-devel make net-snmp unzip wget
+   		sudo apt update
+   		sudo apt install lvm2
    
    		
-
-		
-<p align="center"> </p>
-<img src="https://imgur.com/odDHSSA.png" height="80%" width="80%" >
-<br />    
+  
 
 1. Install required Packages
    
