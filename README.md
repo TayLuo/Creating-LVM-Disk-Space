@@ -27,21 +27,21 @@ After create a VM, please add an additional disk so we can work on this lagb. He
 
 Here are the following steps:
 
-1. Run the "lsblk" command, the new disk should appear as /dev/sdb (or another name depending on your configuration)
+ 1. Run the "lsblk" command, the new disk should appear as /dev/sdb (or another name depending on your configuration)
 
 		lsblk
 
 <p align="center"> </p>
 <img src="https://imgur.com/L7s1AqT.png" height="80%" width="80%" >
 <br /> 
-2. Install LVM Tools
+ 2. Install LVM Tools
    
    Before setting up LVM, you need to install the necessary tools. Run the following command to install LVM utilities:
    
    	     sudo apt update
    	     sudo apt install lvm2
     
-3. Prepare the New Disk for LVM
+ 3. Prepare the New Disk for LVM
    
    Create a Physical Volume (PV) on the new disk. Replace /dev/sdb with your disk name if necessary: :
    
