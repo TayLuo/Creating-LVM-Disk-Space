@@ -54,17 +54,17 @@ Here are the following steps:
 <br />    
 
 
-	1. Install required Packages
+4. Create a Volume Group (VG)
    
-  	 Ensure that the system has essential packages like gcc, glibc, make, wget, and openssl installed, there are more packages need to be installed.    :
+  	A volume group pools physical volumes into a single storage space. You can name the volume group as you like (e.g., lvm-vg)  :
    
-   		dnf install httpd php gcc glibc glibc-common gd gd-devel make net-snmp unzip wget
+   		sudo vgcreate lvm-vg /dev/sdb
    
    		
 
 		
 <p align="center"> </p>
-<img src="https://imgur.com/odDHSSA.png" height="80%" width="80%" >
+<img src="https://imgur.com/x2pk0k6.png" height="80%" width="80%" >
 <br />    
 
 
