@@ -68,17 +68,17 @@ Here are the following steps:
 <br />    
 
 
-1. Install required Packages
+5. Create a Logical Volume (LV)
    
-   Ensure that the system has essential packages like gcc, glibc, make, wget, and openssl installed, there are more packages need to be installed.    :
+   Logical volumes are the actual partitions you will use. Here, we will create a 5GB logical volume named lvm-lv :
    
-   		dnf install httpd php gcc glibc glibc-common gd gd-devel make net-snmp unzip wget
+   		sudo lvcreate -L 5G -n lvm-lv lvm-vg
    
    		
 
 		
 <p align="center"> </p>
-<img src="https://imgur.com/odDHSSA.png" height="80%" width="80%" >
+<img src="https://imgur.com/jCCxAs9.png" height="80%" width="80%" >
 <br />    
 
 
