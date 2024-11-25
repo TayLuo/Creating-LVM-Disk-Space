@@ -31,7 +31,9 @@ Here are the following steps:
 
 		lsblk
 
-
+<p align="center"> </p>
+<img src="https://imgur.com/L7s1AqT.png" height="80%" width="80%" >
+<br /> 
 2. Install LVM Tools
    
    Before setting up LVM, you need to install the necessary tools. Run the following command to install LVM utilities:
@@ -42,9 +44,9 @@ Here are the following steps:
    		
   
 
-1. Install required Packages
+3. Prepare the New Disk for LVM
    
-   Ensure that the system has essential packages like gcc, glibc, make, wget, and openssl installed, there are more packages need to be installed.    :
+   :
    
    		dnf install httpd php gcc glibc glibc-common gd gd-devel make net-snmp unzip wget
    
