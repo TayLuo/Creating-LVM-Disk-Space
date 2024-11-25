@@ -25,6 +25,12 @@ If you need help on how to create a Ubuntu VM, please click [here](https://cloud
 After create a VM, please add an additional disk so we can work on this lagb. Here is a [link](https://cloud.google.com/compute/docs/disks/add-persistent-disk) help you to create a disk for you to use. 
 
 
+Here are the following steps:
+
+1. Run the "lsblk" command, the new disk should appear as /dev/sdb (or another name depending on your configuration)
+
+		lsblk
+
 
 1. Install required Packages
    
