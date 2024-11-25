@@ -29,7 +29,7 @@ Here are the following steps:
 
   1. Run the "lsblk" command, the new disk should appear as /dev/sdb (or another name depending on your configuration)
 
-		lsblk
+			lsblk
 
 <p align="center"> </p>
 <img src="https://imgur.com/L7s1AqT.png" height="80%" width="80%" >
