@@ -41,7 +41,6 @@ Here are the following steps:
    		sudo apt update
    		sudo apt install lvm2
    
-   		
   
 
 3. Prepare the New Disk for LVM
@@ -50,7 +49,6 @@ Here are the following steps:
    
    		sudo pvcreate /dev/sdb 
    
-   		
 
 		
 <p align="center"> </p>
