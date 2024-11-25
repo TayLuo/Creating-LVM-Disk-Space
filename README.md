@@ -40,8 +40,7 @@ Here are the following steps:
    
    	     sudo apt update
    	     sudo apt install lvm2
-   
-  
+    
 3. Prepare the New Disk for LVM
    
    Create a Physical Volume (PV) on the new disk. Replace /dev/sdb with your disk name if necessary: :
