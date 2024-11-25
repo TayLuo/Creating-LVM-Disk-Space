@@ -46,15 +46,15 @@ Here are the following steps:
 
 3. Prepare the New Disk for LVM
    
-   :
+     Create a Physical Volume (PV) on the new disk. Replace /dev/sdb with your disk name if necessary: :
    
-   		dnf install httpd php gcc glibc glibc-common gd gd-devel make net-snmp unzip wget
+   		sudo pvcreate /dev/sdb 
    
    		
 
 		
 <p align="center"> </p>
-<img src="https://imgur.com/odDHSSA.png" height="80%" width="80%" >
+<img src="https://imgur.com/QQyFmwD.png" height="80%" width="80%" >
 <br />    
 
 
