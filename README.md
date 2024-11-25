@@ -130,9 +130,11 @@ Here are the following steps:
 
 10. Make the Mount Persistent
 
+
     Open the /etc/fstab file
+    
 		sudo nano /etc/fstab
 
-11. Add the following line at the end of the file:
+12. Add the following line at the end of the file:
 
 		/dev/lvm-vg/lvm-lv /mnt/lvm-data ext4 defaults 0 2		
