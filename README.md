@@ -22,7 +22,7 @@ For this demonstration purpose, I will use Google Cloud Platform. The concept wi
 
 If you need help on how to create a Ubuntu VM, please click [here](https://cloud.google.com/compute/docs/create-linux-vm-instance)
 
-After create a VM, please add an additional disk so we can work on this lagb. Here is a [link](https://cloud.google.com/compute/docs/disks/add-persistent-disk) help you to create a disk for you to use. 
+After create a VM, please add an additional disk so we can work on this lab. Here is a [link](https://cloud.google.com/compute/docs/disks/add-persistent-disk) help you to create a disk for you to use. 
 
 
 Here are the following steps:
