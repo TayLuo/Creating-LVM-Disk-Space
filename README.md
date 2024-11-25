@@ -88,22 +88,11 @@ Here are the following steps:
    
    		sudo mkfs.ext4 /dev/lvm-vg/lvm-lv
 
-7. Create a Logical Volume (LV)
-   
-   Logical volumes are the actual partitions you will use. Here, we will create a 5GB logical volume named lvm-lv :
-   
-   		sudo lvcreate -L 5G -n lvm-lv lvm-vg
-   
-   		
-
-		
-<p align="center"> </p>
-<img src="https://imgur.com/jCCxAs9.png" height="80%" width="80%" >
-<br />    
 
 
 
-8. Mount the Logical Volume
+
+7. Mount the Logical Volume
    
    Create a mount point directory :
    
@@ -116,7 +105,7 @@ Here are the following steps:
 <img src="https://imgur.com/b1SKBbD.png" height="80%" width="80%" >
 <br />    
 
-9. Mount the logical volume to the directory
+8. Mount the logical volume to the directory
    
 
    
@@ -126,7 +115,7 @@ Here are the following steps:
 
 		
   
-10. Verify that the logical volume is mounted correctly
+9. Verify that the logical volume is mounted correctly
    
    
    		df -h 
@@ -139,11 +128,11 @@ Here are the following steps:
 <br />    
 
 
-11. Make the Mount Persistent
+10. Make the Mount Persistent
 
     Open the /etc/fstab file
 		sudo nano /etc/fstab
 
-12. Add the following line at the end of the file:
+11. Add the following line at the end of the file:
 
 		/dev/lvm-vg/lvm-lv /mnt/lvm-data ext4 defaults 0 2		
