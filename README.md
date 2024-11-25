@@ -38,8 +38,8 @@ Here are the following steps:
    
    Before setting up LVM, you need to install the necessary tools. Run the following command to install LVM utilities:
    
-   		sudo apt update
-   		sudo apt install lvm2
+   	sudo apt update
+   	sudo apt install lvm2
    
   
 3. Prepare the New Disk for LVM
