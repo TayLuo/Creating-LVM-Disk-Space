@@ -20,6 +20,8 @@ Here is a diagram for this relationship:
 
 For this demonstration purpose, I will use Google Cloud Platform. The concept will apply in any platforms and distributions.
 
+If you need help on how to create a Ubuntu VM, please click [here](https://cloud.google.com/compute/docs/create-linux-vm-instance)
+
 
 
 1. Install required Packages
